@@ -33,3 +33,6 @@ function alphabetWar(fight) {
   let result = fight.split('').reduce((a, b) => a + (map[b] || 0), 0);
   return result ? (result < 0 ? "Left" : "Right") + " side wins!" : "Let's fight again";
 }
+
+// or
+
